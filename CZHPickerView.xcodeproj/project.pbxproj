@@ -15,6 +15,7 @@
 		4433EEA3224B6FF5008A28ED /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4433EEA2224B6FF5008A28ED /* main.m */; };
 		4433EEAD224B6FF5008A28ED /* CZHPickerViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4433EEAC224B6FF5008A28ED /* CZHPickerViewTests.m */; };
 		4433EEB8224B6FF5008A28ED /* CZHPickerViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4433EEB7224B6FF5008A28ED /* CZHPickerViewUITests.m */; };
+		4433EECA224B7022008A28ED /* CZHPiceker.m in Sources */ = {isa = PBXBuildFile; fileRef = 4433EEC8224B7022008A28ED /* CZHPiceker.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		4433EEB3224B6FF5008A28ED /* CZHPickerViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CZHPickerViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4433EEB7224B6FF5008A28ED /* CZHPickerViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CZHPickerViewUITests.m; sourceTree = "<group>"; };
 		4433EEB9224B6FF5008A28ED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4433EEC8224B7022008A28ED /* CZHPiceker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CZHPiceker.m; sourceTree = "<group>"; };
+		4433EEC9224B7022008A28ED /* CZHPiceker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CZHPiceker.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,9 +108,11 @@
 				4433EE94224B6FF0008A28ED /* AppDelegate.m */,
 				4433EE96224B6FF0008A28ED /* ViewController.h */,
 				4433EE97224B6FF0008A28ED /* ViewController.m */,
-				4433EE99224B6FF0008A28ED /* Main.storyboard */,
+				4433EEC9224B7022008A28ED /* CZHPiceker.h */,
+				4433EEC8224B7022008A28ED /* CZHPiceker.m */,
 				4433EE9C224B6FF5008A28ED /* Assets.xcassets */,
 				4433EE9E224B6FF5008A28ED /* LaunchScreen.storyboard */,
+				4433EE99224B6FF0008A28ED /* Main.storyboard */,
 				4433EEA1224B6FF5008A28ED /* Info.plist */,
 				4433EEA2224B6FF5008A28ED /* main.m */,
 			);
@@ -265,6 +270,7 @@
 				4433EE98224B6FF0008A28ED /* ViewController.m in Sources */,
 				4433EEA3224B6FF5008A28ED /* main.m in Sources */,
 				4433EE95224B6FF0008A28ED /* AppDelegate.m in Sources */,
+				4433EECA224B7022008A28ED /* CZHPiceker.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -438,6 +444,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 86LP7399RP;
 				INFOPLIST_FILE = CZHPickerView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -455,6 +462,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 86LP7399RP;
 				INFOPLIST_FILE = CZHPickerView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
